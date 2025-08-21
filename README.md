@@ -1,4 +1,4 @@
-# NLP-Text-Summarization-chq
+# NLP-Text-Summarization-CHQ
 ### Implementation of LSTM, BiLSTM and GRU+BiLSTM architectures with attention for abstractive text summarization model for consumer health questions  
 
 ---
