@@ -1,5 +1,29 @@
-# NLP-Text-Summarization-
-Implementation of LSTM, BiLSTM and GRU+BiLSTM architectures with attention for abstractive text summarization model for consumer health questions 
+# 🧾 NLP-Text-Summarization-chq
+### Implementation of LSTM, BiLSTM and GRU+BiLSTM architectures with attention for abstractive text summarization model for consumer health questions  
+
+---
+
+## 📌 Overview  
+This project implements **automatic text summarization** for **Consumer Health Questions (CHQs)** using **Bi-directional LSTMs with Attention**.  
+The goal is to generate **concise, medically-relevant summaries** that reduce redundancy and help healthcare practitioners and researchers quickly interpret patient queries.  
+
+---
+
+## 🎯 Objectives  
+- Apply **NLP techniques** to healthcare domain queries.  
+- Build **abstractive summarization models**.  
+- Evaluate performance using **ROUGE metrics**.  
+- Identify challenges like **hallucination** and **repetition** in generated summaries.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Languages/Frameworks:** Python, TensorFlow / Keras  
+- **Libraries:** Pandas, NumPy, NLTK, spaCy, Scikit-learn  
+- **Deep Learning:** Bi-LSTM, LSTM, GRU+BiLSTM Attention Layer  
+- **Evaluation:** ROUGE  
+
+---
 
 # Code Setup Instructions
 The entire implementation was developed using Google Colab for ease of access and GPU support. Each model (LSTM, BiLSTM, Hybrid GRU+BiLSTM) is organized in a separate notebook, with a shared preprocessing script (preprocessingword2vec.py) to handle all data cleaning, tokenization, embedding preparation, and padding steps.
