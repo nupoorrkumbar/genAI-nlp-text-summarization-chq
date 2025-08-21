@@ -1,29 +1,56 @@
-# NLP-Text-Summarization-CHQ
-### Implementation of LSTM, BiLSTM and GRU+BiLSTM architectures with attention for abstractive text summarization model for consumer health questions  
+# NLP-Text-Summarization-CHQ 
+### Generative AI for Text Summarization of Consumer Health Questions (CHQ) using LSTM, BiLSTM and GRU+BiLSTM architectures with attention for abstractive text summarization model
 
 ---
 
 ## Overview  
-This project implements **automatic text summarization** for **Consumer Health Questions (CHQs)** using **Bi-directional LSTMs with Attention**.  
-The goal is to generate **concise, medically-relevant summaries** that reduce redundancy and help healthcare practitioners and researchers quickly interpret patient queries.  
+This project applies **Generative AI (GenAI)** techniques to **automatic text summarization** of **Consumer Health Questions (CHQs)**.  
+Using **Bi-directional LSTMs with Attention**, the model generates **concise, medically-relevant summaries** that reduce redundancy and help healthcare practitioners and researchers quickly interpret patient queries.  
 
 ---
 
 ## Objectives  
-- Apply **NLP techniques** to healthcare domain queries.  
-- Build **abstractive summarization models**.  
-- Evaluate performance using **ROUGE metrics**.  
-- Identify challenges like **hallucination** and **repetition** in generated summaries.  
+- Apply **GenAI-based NLP techniques** to healthcare queries.  
+- Build **abstractive summarization models** for CHQs.  
+- Evaluate model performance using **ROUGE metrics**.  
+- Address challenges such as **hallucination** and **repetition**.  
 
 ---
 
 ## Tech Stack  
 - **Languages/Frameworks:** Python, TensorFlow / Keras  
 - **Libraries:** Pandas, NumPy, NLTK, spaCy, Scikit-learn  
-- **Deep Learning:** Bi-LSTM, LSTM, GRU+BiLSTM Attention Layer  
+- **Deep Learning / GenAI:** Bi-LSTM, Attention Layer  
 - **Evaluation:** ROUGE  
-
 ---
+
+## Key Contributions
+- **Preprocessing:** Cleaned and tokenized CHQs with lemmatization and stopword removal.
+- **Modeling:** Built a GenAI-driven Bi-LSTM with Attention for abstractive summarization.
+- **Embeddings:** Integrated BioWordVec to capture domain-specific medical semantics.
+- **Optimization:** Tuned hyperparameters with GridSearchCV; implemented beam search decoding.
+- **Evaluation:** Improved ROUGE-1/ROUGE-L scores compared to baseline seq2seq models.
+
+⸻
+
+## Results
+	•	Produced concise summaries for complex CHQs with reduced noise.
+	•	Attention visualization improved interpretability of generated outputs.
+	•	Identified limitations such as hallucination & repetition, with recommendations for future transformer-based GenAI approaches.
+
+⸻
+
+## Impact & Use Cases
+	•	Enables medical researchers to analyze patient queries faster.
+	•	Enhances healthcare chatbots with GenAI-powered summarization.
+	•	Reduces information overload in patient-facing platforms.
+
+⸻
+
+## Future Work
+	•	Extend to transformer-based GenAI models (BERT, T5, Pegasus) for improved results.
+	•	Explore reinforcement learning approaches to mitigate hallucinations.
+	•	Scale to broader healthcare datasets for generalizability.
 
 # Code Setup Instructions
 The entire implementation was developed using Google Colab for ease of access and GPU support. Each model (LSTM, BiLSTM, Hybrid GRU+BiLSTM) is organized in a separate notebook, with a shared preprocessing script (preprocessingword2vec.py) to handle all data cleaning, tokenization, embedding preparation, and padding steps.
