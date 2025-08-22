@@ -7,6 +7,11 @@
 This project applies **Generative AI (GenAI)** techniques to **automatic text summarization** of **Consumer Health Questions (CHQs)**.  
 Using **Bi-directional LSTMs with Attention**, the model generates **concise, medically-relevant summaries** that reduce redundancy and help healthcare practitioners and researchers quickly interpret patient queries.  
 
+This work is based on the dataset and study from:  
+Asma Ben Abacha and Dina Demner-Fushman. *On the Summarization of Consumer Health Questions*.  
+Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL), 2019.  
+[Read the paper on ACL Anthology](https://aclanthology.org/P19-1215.pdf) 
+
 ---
 
 ## Objectives  
